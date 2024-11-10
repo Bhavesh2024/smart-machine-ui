@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.active {
+	position: relative;
+	height: 100%;
+	align-items: center;
+	display: flex;
+	color: #7b63ff;
+	font-weight: 550;
+}
+.active::after {
+	content: "";
+	position: absolute;
+	height: 2.5px;
+	width: 100%;
+	background-color: rgb(123, 99, 255);
+	bottom: 0;
+	left: 0;
+}
+.machine-status {
+	position: relative;
+}
+.machine-status::before {
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 1px;
+	background-color: rgba(219, 222, 223, 0.705);
+}

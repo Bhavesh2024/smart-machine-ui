@@ -1,0 +1,5 @@
+1. setup project
+2. create component
+3. create layout
+4. adding media and styling
+5. finishing queries
